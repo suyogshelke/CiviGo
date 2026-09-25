@@ -1,0 +1,50 @@
+# ---- Node / frontend ----
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Environment ----
+.env.local
+.env.*.local
+# The frontend .env holds no secrets (only the mock-API flag, app name and
+# proxy path) and is committed so the instant demo runs straight after clone.
+!.env
+!.env.example
+
+# ---- Python / backend ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+venv/
+.venv/
+env/
+.env
+uploads/
+staticfiles/
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Firebase ----
+.firebase/
+firebase-debug.log*
+
+# ---- Git Activity Helper ----
+fake_git.py
